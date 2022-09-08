@@ -22,5 +22,6 @@
     </bean>
 
     <context:component-scan base-package="org.zerock.springex.controller"/>
+
     <mvc:annotation-driven  conversion-service="conversionService" />
 </beans>
